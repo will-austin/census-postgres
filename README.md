@@ -1,4 +1,5 @@
 # Overview
+# 08-21-15 - Forking project to update for use with ACS 2013. 
 
 This project consists of a number of SQL scripts and other supporting files for importing recent American Community Survey releases from the US Census Bureau datasets. (Support for importing the Decennial Census will hopefully be added soon.) In order to avoid having to produce copious amounts of documentation, the naming conventions employed adhere very closely to the Census data dictionary. This means that fields are named, e.g., `b07401037` rather than `moved_within_same_county_aged_20_to_24`. The data manager who wants more memorable names is advised to create views aliasing commonly used columns. The data are also maintained in tables named "sequences" so as to make it easy for data managers to drop or load data in the same structures the Census uses for distribution. 
 
